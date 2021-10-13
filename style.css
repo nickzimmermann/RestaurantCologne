@@ -1,0 +1,67 @@
+.navbar .navbar-nav .nav-link:hover {
+    color: #1a4c0b;
+  }
+  @media only screen and (min-width: 960px) {
+    .navbar .navbar-nav .nav-link {
+      padding: 0.7em 0.7em;
+    }
+    .navbar {
+      padding: 1;
+    }
+    .navbar .navbar-brand {
+      padding: 1 0.7em;
+    }
+  }
+  .navbar .navbar-nav .nav-link {
+    position: relative;
+    color:#1a4c0b;
+  }
+  .navbar .navbar-nav .nav-link::after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: #1a4c0b;
+    color: transparent;
+    width: 0%;
+    content: '';
+    height: 3px;
+    transition: all 0.5s;
+  }
+  .navbar .navbar-nav .nav-link:hover::after {
+    width: 100%;
+  }
+
+.navLogo {
+    padding-top: 0; 
+    padding-bottom: 0;
+    margin-right: 40px;
+}
+
+.nav-item {
+    margin-right: 15px;
+}
+
+p.privacy {
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+
+.footerIconList {
+    margin-bottom: 0;
+    margin-left: 50px;
+}
+
+.footerIcon {
+    color:#1a4c0b;
+    padding: 0.5rem;
+}
+
+footer {
+    color: #1a4c0b;
+}
+
+.nav-link:hover {
+    color: #6c757d;
+}

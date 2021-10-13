@@ -43,9 +43,58 @@
     margin-right: 15px;
 }
 
-p.privacy {
+.privacy {
     text-align: center;
+    color:#1a4c0b;
     margin-bottom: 0.5rem;
+}
+
+.privacy:hover {
+    color:#6c757d;
+}
+
+h1.intro {
+    font-family: 'Satisfy', cursive;
+    color:#1a4c0b;
+    text-align: center;
+}
+
+h2.intro {
+    font-family: 'Satisfy', cursive;
+    color:#1a4c0b;
+    text-align: center;
+}
+
+h3.intro {
+    color:#1a4c0b;
+    text-align: center;
+}
+
+p.intro {
+    color:#1a4c0b;
+    text-align: center;
+}
+
+.impressum {
+    font-family: 'Satisfy', cursive;
+    color:#1a4c0b;
+}
+
+.contact {
+    color:#1a4c0b;
+}
+
+.contact:hover {
+    color:#58b124;
+}
+
+.address {
+    color:#6c757d;
+}
+
+h1.menu {
+    color:#1a4c0b;
+    font-family: 'Satisfy', cursive;
 }
 
 .footerIconList {

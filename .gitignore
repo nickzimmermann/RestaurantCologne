@@ -26,4 +26,5 @@ node_modules
 .DS_Store
 .env
 comments
+/SEO
 robots.txt
